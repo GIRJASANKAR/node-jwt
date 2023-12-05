@@ -22,10 +22,10 @@ This project demonstrates a simple Express application with JWT authentication. 
 # API Endpoints
 
 # POST /register
-Registers a new user.
+Registers a new user by providing name, username, email & passwords.
 
 # POST /login
-Authenticates a user and returns a JWT.
+Authenticates a user and returns a JWT. This JWT token can be used to verify user.
 
 # POST /profile
 Returns user's profile information if provided with a valid JWT in the Authorization header.
